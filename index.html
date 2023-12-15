@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello World</title>
+    <style>
+        @keyframes lightEffect {
+            0% {
+                color: blue;
+                text-shadow: none;
+            }
+            50% {
+                color: cyan;
+                text-shadow: 0 0 10px cyan, 0 0 20px cyan, 0 0 30px cyan, 0 0 40px cyan, 0 0 70px cyan, 0 0 80px cyan, 0 0 100px cyan, 0 0 150px cyan;
+            }
+            100% {
+                color: blue;
+                text-shadow: none;
+            }
+        }
+
+        h1 {
+            font-size: 15vh;
+            text-align: center;
+            animation: lightEffect 2s infinite;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello World</h1>
+</body>
+</html>
+
+
